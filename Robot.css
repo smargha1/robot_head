@@ -1,0 +1,407 @@
+/* Container */
+.container{
+    height:160px;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+/* Container */
+
+
+/* head */
+.container .head {
+    margin-top:12px;
+    background-color:#0f4b62;
+    width: 155px;
+    height:150px;
+    border-top-right-radius: 40px;
+    border-top-left-radius: 40px;
+    border-bottom-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    box-shadow:inset 9px -2px 47px -4px rgba(0,0,0,1);
+}
+/* head */
+
+
+/* hair */
+.hair{
+    margin:-11px auto;
+    width:120px;
+    height:19px;
+    display:flex;
+    justify-content:space-around;
+}
+.hair .left{
+    background-color:#982739;
+    width:15px;
+    height:17px;
+    -webkit-box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    -moz-box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    border:1px solid #891326;
+    border-radius:3px;
+}
+.hair .middle{
+    background-color:#982739;
+    width:15px;
+    height:17px;
+    -webkit-box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    -moz-box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    border:1px solid #891326;
+    border-radius:3px;
+}
+.hair .right{
+    background-color:#982739;
+    width:15px;
+    height:17px;
+    -webkit-box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    -moz-box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    box-shadow:inset -9px 0px 15px -10px rgba(255,255,255,1);
+    border:1px solid #891326;
+    border-radius:3px;
+}
+/* hair */
+
+
+/* Pins */
+.pins{
+    margin:18px auto;
+    width:135px;
+    height:17px;
+    display:flex;
+    justify-content:space-around;
+}
+.pins div{
+    background-color:#BE802A;
+    width:15px;
+    height:15px;
+    border:1px solid #4D2D00;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    -webkit-box-shadow:-1px 1px 2px -1px rgba(0,0,0,0.8);
+    -moz-box-shadow:-1px 1px 2px -1px rgba(0,0,0,0.8);
+    box-shadow:-1px 1px 2px -1px rgba(0,0,0,0.8);
+}
+.pins .first-pin{
+    width:10px;
+    height:10px;
+    background-color:#DAA300;
+    border:none;
+}
+.pins .second-pin{
+    width:10px;
+    height:10px;
+    background-color:#DAA300;
+    border:none;
+}
+.pins .third-pin{
+    width:10px;
+    height:10px;
+    background-color:#DAA300;
+    border:none;
+}
+.pins .fourth-pin{
+    width:10px;
+    height:10px;
+    background-color:#DAA300;
+    border:none;
+}
+/* Pins */
+
+
+/* Eyes */
+.eye-space{
+    width:118px;
+    height:33px;
+    margin:-5px auto;
+    background-color:#ffe4c4;
+    border:1px solid #dbb485;
+    border-top-left-radius:20px;
+    border-bottom-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-right-radius:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center
+}
+.eye-space .eys-inner-space{
+    width:112px;
+    height:27px;
+    border:1px solid #dbb485;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    -webkit-box-shadow:-1px 1px 2px -1px rgba(0,0,0,0.8);
+    -moz-box-shadow:-1px 1px 2px -1px rgba(0,0,0,0.8);
+    box-shadow:-1px 1px 2px -1px rgba(0,0,0,0.8);
+}
+.eye-space .eys-inner-space .left-eye{
+    background-color:#93E400;
+    width:23px;
+    height:23px;
+    border:1px solid #729f21;
+    border-radius:50%;
+    -webkit-box-shadow:-4px 4px 4px -4px rgba(0,0,0,0.8);
+    -moz-box-shadow:-4px 4px 3px -4px rgba(0,0,0,0.8);
+    box-shadow:-4px 4px 4px -4px rgba(0,0,0,0.8)
+}
+.eye-space .eys-inner-space .right-eye{
+    background-color:#93E400;
+    width:23px;
+    height:23px;
+    border:1px solid #729f21;
+    border-radius:50%;
+    -webkit-box-shadow:-4px 4px 4px -4px rgba(0,0,0,0.8);
+    -moz-box-shadow:-4px 4px 3px -4px rgba(0,0,0,0.8);
+    box-shadow:-4px 4px 4px -4px rgba(0,0,0,0.8)
+}
+/* Eyes */
+
+
+/*MOUTH*/
+/*MOUTH LAYOUT*/
+.mouth{
+    width:100px;
+    height:25px;
+    margin:25px auto;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 180px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 180px;
+    background-color:#8b8989;
+    border:1px solid #ba915f;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    -webkit-box-shadow:inset 4px 4px 7px -4px rgba(0,0,0,0.8),
+                             -1px 1px 2px -1px rgba(0,0,0,0.8);
+    -moz-box-shadow:inset 4px 4px 7px -4px rgba(0,0,0,0.8),
+                          -1px 1px 2px -1px rgba(0,0,0,0.8);
+    box-shadow:inset 4px 4px 7px -4px rgba(0,0,0,0.8),
+                     -1px 1px 2px -1px rgba(0,0,0,0.8);
+}
+/*MOUTH LAYOUT*/
+
+/*TEETH*/
+.mouth .teeth{
+    background-color:black;
+    width:90px;
+    height:15px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 180px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 180px;
+    overflow:hidden;
+    -webkit-box-shadow:inset 4px 4px 7px -4px rgba(0,0,0,0.8),
+                             -1px 1px 2px -1px rgba(0,0,0,0.8);
+    -moz-box-shadow:inset 4px 4px 7px -4px rgba(0,0,0,0.8),
+                          -1px 1px 2px -1px rgba(0,0,0,0.8);
+    box-shadow:inset 4px 4px 7px -4px rgba(0,0,0,0.8),
+                     -1px 1px 2px -1px rgba(0,0,0,0.8);
+}
+/*TEETH*/
+
+/*UPPER TEETH*/
+.mouth .teeth .upper{
+    width:90px;
+    height:7px;
+    display:flex;
+}
+.mouth .teeth .upper .first{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .second{
+    display:block;
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .third{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .fourth{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .fifth{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .sixth{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .seventh{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .eighth{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .ninth{
+    margin:0px 0px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .upper .tenth{
+    margin:0px 1px 1px 1px;
+    width:8px;
+    height:6px;
+    border-bottom:1px solid white;
+    border-bottom-left-radius:2px;
+    border-bottom-right-radius:2px;
+    background-color:ghostwhite;
+}
+/* UPPER TEETH*/
+
+/* LOWER TEETH*/
+.mouth .teeth .lower{
+    width:90px;
+    height:7px;
+    display:flex;
+}
+.mouth .teeth .lower .first{
+    margin:1px 0px 0px 2px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .second{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .third{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .fourth{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .fifth{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .sixth{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .seventh{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .eighth{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .ninth{
+    margin:1px 0px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+.mouth .teeth .lower .tenth{
+    margin:1px 1px 0px 1px;
+    width:8px;
+    height:6px;
+    border-top:1px solid white;
+    border-top-left-radius:2px;
+    border-top-right-radius:2px;
+    background-color:ghostwhite;
+}
+/*LOWER TEETH*/
+/*MOUTH*/
